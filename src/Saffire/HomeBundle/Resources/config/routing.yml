@@ -1,0 +1,11 @@
+saffire_home_homepage:
+    pattern:  /
+    defaults: { _controller: SaffireHomeBundle:Default:index }
+
+saffire_home_about:
+    pattern:  /about
+    defaults: { _controller: SaffireHomeBundle:Default:about }
+
+saffire_widget_new:
+    pattern:  /widget/{slug}
+    defaults: { _controller: SaffireHomeBundle:Widget:top }

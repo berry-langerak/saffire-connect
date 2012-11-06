@@ -1,0 +1,20 @@
+saffire_group:
+    resource: "@SaffireGroupBundle/Resources/config/routing.yml"
+    prefix:   /
+
+saffire_home:
+    resource: "@SaffireHomeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+saffire_user:
+    resource: "@SaffireUserBundle/Resources/config/routing.yml"
+    prefix:   /user
+
+saffire_badge:
+    resource: "@SaffireBadgeBundle/Resources/config/routing.yml"
+    prefix:   /badge
+
+# Internal routing configuration to handle ESI
+#_internal:
+#    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#    prefix:   /_internal

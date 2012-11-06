@@ -1,0 +1,31 @@
+{% extends("::base.html.twig") %}
+
+{% block tip %}
+    <div class="row">
+        <div class="span12">
+            BLAAT
+            {#{% render "SaffireHomeBundle:Widget:tip" %}#}
+        </div>
+    </div>
+{% endblock %}
+
+{% block widget %}
+<div class="row">
+    {% render "SaffireHomeBundle:Widget:new" with { "slug" : "user" } %}
+    {% render "SaffireHomeBundle:Widget:new" with { "slug" : "group" } %}
+    {% render "SaffireHomeBundle:Widget:new" with { "slug" : "badge" } %}
+</div>
+{% endblock %}
+
+
+{% block body %}
+<div class="hero-unit">
+    <img src="/img/saffire-logo.png" align="right">
+    <h1>Welcome</h1>
+
+    <p>Welcome to connect.saffire-lang.org. A social network site dedicated to Saffire. Connect, make friends, join
+    groups, earn badges and find out what others are doing and improve your own Saffire skills!</p>
+
+    <p><a class="btn btn-primary btn-large" href="{{ path("saffire_home_about") }}">Learn more &raquo;</a></p>
+</div>
+{% endblock %}

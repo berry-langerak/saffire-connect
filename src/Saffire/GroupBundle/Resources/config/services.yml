@@ -1,0 +1,7 @@
+parameters:
+#    saffire_group.example.class: Saffire\GroupBundle\Example
+
+services:
+#    saffire_group.example:
+#        class: %saffire_group.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

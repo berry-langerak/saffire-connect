@@ -1,0 +1,11 @@
+saffire_user_homepage:
+    pattern:  /{name}
+    defaults: { _controller: SaffireUserBundle:Default:index }
+
+saffire_user_badges:
+    pattern:  /{name}/badges
+    defaults: { _controller: SaffireUserBundle:Badge:index }
+
+saffire_user_groups:
+    pattern:  /{name}/groups
+    defaults: { _controller: SaffireUserBundle:Group:index }

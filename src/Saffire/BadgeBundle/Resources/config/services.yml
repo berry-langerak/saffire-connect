@@ -1,0 +1,7 @@
+parameters:
+#    saffire_badge.example.class: Saffire\BadgeBundle\Example
+
+services:
+#    saffire_badge.example:
+#        class: %saffire_badge.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
